@@ -1291,7 +1291,6 @@ def main():
         print(stage(f"File Save in {light}{outx}{bpurple}", "velimatix", col2 = bpurple))
         getpass(stage(f"Obfuscation completed succesfully in {light}{now}s{bpurple}.{Col.reset}", "velimatix", col2 = bpurple))
         
-    except KeyboardInterrupt:pass
     except Exception as e:__import__('logging').error(__import__('traceback').format_exc())
 
 
