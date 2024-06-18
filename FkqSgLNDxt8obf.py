@@ -1215,7 +1215,7 @@ def compl(v):
     b = __import__("zlib").compress(b)
     b = __import__("base64").b64encode(b)
     return f"""
-__AuthorOfOBF__ = ("HuynhNgocUyen","MinhNguyen2412") # Don't delete creditors of obfuscator
+__AuthorOfOBF__ = ("HuynhNgocUyen","MinhNguyen2412") # Don't delete creditors of obfuscator else your tool won't work
 class VELIMATIX(MemoryError):0
 __a__, _0xVELIxMATIX = ("HuynhNgocUyen","NguyenMinh2412"), [
     ["k","a","b"],["j","i","z"],["h","s","r"],["m","2","l"],
@@ -1283,7 +1283,7 @@ def main():
         now = round(__import__('time').time() - now, 2)
         #out = input("Nhập file lưu: ")
         #open(out, 'w', encoding='utf-8').write(str(pic[0]))
-        outx = "feli-" + file
+        outx = "veli-" + file
         open(outx, 'w', encoding='utf-8').write(str(LAYER))
         print(stage(f"File Save in {light}{outx}{bpurple}", "velimatix", col2 = bpurple))
         getpass(stage(f"Obfuscation completed succesfully in {light}{now}s{bpurple}.{Col.reset}", "velimatix", col2 = bpurple))
