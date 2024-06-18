@@ -1302,5 +1302,5 @@ if __name__ == '__main__':
             pass
         except KeyboardInterrupt:
             clrscr()
-            print("\nExit.")
+            print("\x1b[38;5;203mExit.")
             sys.exit(0)
