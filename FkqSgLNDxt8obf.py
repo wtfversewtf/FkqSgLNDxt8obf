@@ -18,7 +18,7 @@ def install(package):
 # Danh sách các thư viện cần kiểm tra và cài đặt
 libraries = [
     "requests",
-    "pystyle==2.9",
+    "pystyle",
     "getpass",
 ]
 
@@ -609,9 +609,7 @@ if isinstance({self.J}, tuple) and len({self.J}) >= 1:
         Anti_hook = f"""
 class VELIMATIX(MemoryError):0
 try:
-    if __Author__ != ("HuynhNgocUyen","MinhNguyen2412"):
-        raise VELIMATIX('>> GOOD LUCK!! VELIMATIX') from None
-    if __In4__ != ("https://www.facebook.com/datishnu1907","https://www.facebook.com/i.usr.bin.python.NguyenMinh"):
+    if __AuthorOfOBF__ != ("HuynhNgocUyen","MinhNguyen2412"):
         raise VELIMATIX('>> GOOD LUCK!! VELIMATIX') from None
     if len(open(__file__).readlines()) != 33:
         raise VELIMATIX('>> GOOD LUCK!! VELIMATIX') from None
@@ -1217,8 +1215,7 @@ def compl(v):
     b = __import__("zlib").compress(b)
     b = __import__("base64").b64encode(b)
     return f"""
-__Author__ = ("HuynhNgocUyen","MinhNguyen2412")
-__In4__ = ("https://www.facebook.com/datishnu1907","https://www.facebook.com/i.usr.bin.python.NguyenMinh")
+__AuthorOfOBF__ = ("HuynhNgocUyen","MinhNguyen2412") # Don't delete creditors of obfuscator
 class VELIMATIX(MemoryError):0
 __a__, _0xVELIxMATIX = ("HuynhNgocUyen","NguyenMinh2412"), [
     ["k","a","b"],["j","i","z"],["h","s","r"],["m","2","l"],
@@ -1263,7 +1260,7 @@ def main():
         elif "global" in script:
             raise Exception("DONT SUPPORT global")
         #STRING = input("--> String <--\n[X] V1 | [Y] V2: ")
-        STRING = input(stage(f"String : [X] V1 | [Y] V2: ", "velimatix", col2 = bpurple)).replace('"','').replace("'","")
+        STRING = input(stage(f"String : [X] V1 | [Y] V2 (Use V2 for more stable): ", "velimatix", col2 = bpurple)).replace('"','').replace("'","")
         BAOMAT = input(stage(f"Exceptionjmp Protect? : [X] NO | [Y] YES: ", "velimatix", col2 = bpurple)).replace('"','').replace("'","")
         
         
@@ -1291,16 +1288,10 @@ def main():
         print(stage(f"File Save in {light}{outx}{bpurple}", "velimatix", col2 = bpurple))
         getpass(stage(f"Obfuscation completed succesfully in {light}{now}s{bpurple}.{Col.reset}", "velimatix", col2 = bpurple))
         
+    except KeyboardInterrupt:pass
     except Exception as e:__import__('logging').error(__import__('traceback').format_exc())
 
 
 
 if __name__ == '__main__':
-     while True:
-        try:
-            main()
-            pass
-        except KeyboardInterrupt:
-            clrscr()
-            print("\x1b[38;5;203mExit.")
-            sys.exit(0)
+    main()
