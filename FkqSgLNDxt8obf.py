@@ -1297,4 +1297,11 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+     while True:
+        try:
+            main()
+            pass
+        except KeyboardInterrupt:
+            clrscr()
+            print("\nExit.")
+            sys.exit(0)
