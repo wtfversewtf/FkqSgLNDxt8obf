@@ -610,18 +610,18 @@ if isinstance({self.J}, tuple) and len({self.J}) >= 1:
 class VELIMATIX(MemoryError):0
 try:
     if __AuthorOfOBF__ != ("HuynhNgocUyen","MinhNguyen2412"):
-        raise VELIMATIX('>> GOOD LUCK!! VELIMATIX') from None
-    if len(open(__file__).readlines()) != 33:
-        raise VELIMATIX('>> GOOD LUCK!! VELIMATIX') from None
+        raise VELIMATIX('>> GOOD LUCK!! VELIMATIX\\nDo not try to change the name of file.\\nDo not try to delete authors\\nDo not try to delete any line\\nElse It will not work.') from None
+    if len(open(__file__).readlines()) != 32:
+        raise VELIMATIX('>> GOOD LUCK!! VELIMATIX\\nDo not try to change the name of file.\\nDo not try to delete authors\\nDo not try to delete any line\\nElse It will not work.') from None
 except:
-    raise VELIMATIX('>> GOOD LUCK!! VELIMATIX') from None
+    raise VELIMATIX('>> GOOD LUCK!! VELIMATIX\\nDo not try to change the name of file.\\nDo not try to delete authors\\nDo not try to delete any line\\nElse It will not work.') from None
 import traceback, marshal
 class _VELIMATIX_:
     CHECK_HOOKING = set()
     ALLOWED_MODULES = {{'builtins', '__main__'}}
     @staticmethod
     def velivantue():
-        raise VELIMATIX('>> GOOD LUCK!! VELIMATIX') from None
+        raise VELIMATIX('>> GOOD LUCK!! VELIMATIX\\nDo not try to change the name of file.\\nDo not try to delete authors\\nDo not try to delete any line\\nElse It will not work.') from None
     @staticmethod
     def CHECK_AND_BLOCK(FUNC):
         if callable(FUNC) and FUNC.__module__ not in _VELIMATIX_.ALLOWED_MODULES:
@@ -1283,7 +1283,7 @@ def main():
         now = round(__import__('time').time() - now, 2)
         #out = input("Nhập file lưu: ")
         #open(out, 'w', encoding='utf-8').write(str(pic[0]))
-        outx = "veli-"+file
+        outx = "feli-" + file
         open(outx, 'w', encoding='utf-8').write(str(LAYER))
         print(stage(f"File Save in {light}{outx}{bpurple}", "velimatix", col2 = bpurple))
         getpass(stage(f"Obfuscation completed succesfully in {light}{now}s{bpurple}.{Col.reset}", "velimatix", col2 = bpurple))
